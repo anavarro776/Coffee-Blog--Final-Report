@@ -1,0 +1,224 @@
+/*global*/
+*{
+    margin:0;
+}
+body{
+    font-family:arial;
+
+}
+
+p{
+    line-height: 2;
+}
+
+img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: end;
+
+
+}
+.footer-blog{ 
+    display: flex;
+    align-items: start;
+
+}
+
+/*utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+   
+
+}
+.btn{
+    display: block;
+    background-color: black;
+    text-decoration: none;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding :10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.btn-read{
+    background-color: black;
+    color: white;
+    width: 100px;
+}    
+
+.btn-info{
+    
+    background-color: brown;
+    color: white;
+    width: 200px;
+}
+
+   
+
+
+
+
+/*headers*/
+
+.site-header{
+    background-image:url(img/coffee-images-main/banner.jpg);
+    height: 300px;
+    background-size: cover;
+    color: white;
+     text-align: center;
+   
+    
+}
+
+/*menu*/
+.nav-bar{
+    display: flex;
+    justify-content:space-around;
+     align-items: center;
+    height: 100p x;
+  
+    
+}
+.menu a{
+    color: white;
+    margin-right: 30px;
+}
+
+/*main-flex*/
+.main-flex {
+    display: flex;
+
+}
+.blog-container{
+    width: 60%;
+    margin-right: 20px;
+}
+
+.course-container{
+    width: 40%;
+}
+.blog-item{
+   border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;   
+
+}
+
+
+
+
+
+
+.about-pargraph{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    margin-right:auto;
+    margin-left: auto;
+    padding: left 40x;;
+
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+    
+
+
+/*Contact*/
+
+    .form-container{
+     display: flex;
+     flex-direction: column;
+    }
+.form{
+    background-color:white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+   
+
+}
+
+.input-container label{
+    width: 20%;
+
+}
+
+.input-container input,.input-container textarea{
+    padding: 5px;
+    border:1px solid grey;
+    width: 80%;
+}
+
+.contact-footer{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    
+}
+    .class:hover{
+        color: yellow;
+    }
+
+    .contact-title{
+   
+        align-items: center;
+    }
+
+    /*Courses*/
+     .course-title{
+        display: flex;
+        align-items: center;
+     
+     }
+
+    .courses{
+        display: flex;
+        flex-direction:column;
+        
+    
+    }
+
+    .course-info{
+        display: flex;
+        flex-direction:column;
+    
+    }
+
+    .btn-more{
+       display: flex;
+        align-items: end;
+  
+        margin-bottom: 20px;
+
+    }
